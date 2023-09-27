@@ -2,14 +2,16 @@
 
 ### Para que serve o React
 
+-   Desenvolvido internamente pelo Facebook (hoje Meta) para resolver os problemas que eles tinham,
+    o React teve seu código aberto em 2013;
 -   Uma biblioteca para criação de interfaces, tanto web quanto nativas.
 
 ### Como funciona o React
 
--   Desenvolvido internamente pelo Facebook (hoje Meta) para resolver os problemas que eles tinham,
-    o React teve seu código aberto em 2013;
 -   As interfaces do React são construídas a partir de pequenos blocos chamados de componentes;
--   Criado para lidar com interatividade.
+-   Criado para lidar com interatividade;
+-   Vitual DOM: o React faz uma cópia virtual do DOM onde fazemos todas as nossas alterações na interface;
+-   O React então compara o DOM virtual com o DOM real e renderiza novamente todas as partes que mudaram.
 
 ### Porque usar o React e não apenas o JavaScript?
 
