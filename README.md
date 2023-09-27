@@ -1,10 +1,26 @@
-# O que vimos nesse módulo?
+## O que vimos nesse módulo?
 
-#### Como funciona o React
+### Para que serve o React
 
-#### Para que serve o React
+-   Uma biblioteca para criação de interfaces, tanto web quanto nativas.
 
-#### Conceitos
+### Como funciona o React
+
+-   Desenvolvido internamente pelo Facebook (hoje Meta) para resolver os problemas que eles tinham,
+    o React teve seu código aberto em 2013;
+-   As interfaces do React são construídas a partir de pequenos blocos chamados de componentes;
+-   Criado para lidar com interatividade.
+
+### Porque usar o React e não apenas o JavaScript?
+
+#### React é mais:
+
+-   Simples;
+-   Produtivo;
+-   Manutenível;
+-   Poderoso.
+
+### Conceitos estudados:
 
 -   JSX
 -   Componentes
