@@ -24,7 +24,7 @@
     margin-top: 2rem;
 }
 
-.container button {
+/* .container button {
     background-color: #121212;
     border: 0;
     border-radius: 0.5rem;
@@ -34,9 +34,9 @@
     margin-top: 2rem;
     padding: 0.75em 1.25em;
     transition: 0.3s;
-}
+} */
 
-.container button:hover {
+/* .container button:hover {
     cursor: pointer;
     margin-left: 0.5rem;
-}
+} */
