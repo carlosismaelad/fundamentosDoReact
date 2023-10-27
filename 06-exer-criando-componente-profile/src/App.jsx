@@ -9,7 +9,7 @@ function App() {
         name="Carlos Dourado"
         bio="Full Stack JavaScript Developer"
         email="carlosdourado@mail.com"
-        phone="+5585987654321"
+        phone="5585997720796"
         githubUrl="https://github.com/carlosismaelad"
         linkedinUrl="https://www.linkedin.com/in/carlosismaelad/"
         twitterUrl="https://twitter.com/Carlos_IsmaelAD"

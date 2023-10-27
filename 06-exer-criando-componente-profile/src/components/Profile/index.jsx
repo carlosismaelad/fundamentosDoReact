@@ -17,7 +17,7 @@ export default function Profile(props){
             <ProfileDescription className={styles.links}>
                 <div className={styles.links}>
                     <LinkButton href={props.githubUrl} target="_blank" rel="noreferrer">Github</LinkButton>
-                    <LinkButton href={props.linkedinUrl} target="_blank" rel="noreferrer">Linkedin</LinkButton>
+                    <LinkButton href={props.linkedinUrl} target="_blank" rel="noreferrer">LinkedIn</LinkButton>
                     <LinkButton href={props.twitterUrl} target="_blank" rel="noreferrer">Twitter</LinkButton>
                 </div>
             </ProfileDescription>
