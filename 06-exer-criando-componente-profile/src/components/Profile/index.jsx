@@ -5,11 +5,19 @@ import ProfileSection from "./ProfileDescription"
 import LinkButton from "../LinkButton"
 
 export default function Profile(props){
+    
+
     return (
         <div className={styles.container}>
             <img className={styles.avatar} src={props.avatar} alt={props.name} />
             <Title>
-                <span>{props.name}</span> 
+                <span>{props.name}</span>
+                <button
+                    className={styles.followButton}
+                    onClick={() => alert(`Agora você está seguindo ${props.name}`)}
+                >
+                    Follow
+                </button>
             </Title>
             <ProfileSection>{props.bio}</ProfileSection>
             <ProfileSection>{props.phone}</ProfileSection>
