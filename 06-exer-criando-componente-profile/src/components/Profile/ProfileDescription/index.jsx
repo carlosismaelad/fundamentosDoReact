@@ -1,15 +1,17 @@
 import propTypes from "prop-types"
 import styles from "./styles.module.css"
 
-export default function ProfileDescription(props){
+export default function ProfileSection(props){
     return (
-        <div className={styles.wrapper}>
+        <div 
+            {...props}
+            className={`${styles.wrapper} ${props.className}`}>
             {props.children}
         </div>
     )
 
 }
 
-ProfileDescription.prototypes = {
+ProfileSection.prototypes = {
     children: propTypes.node
 }

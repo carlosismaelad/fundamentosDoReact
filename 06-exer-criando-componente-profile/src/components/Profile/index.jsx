@@ -1,7 +1,7 @@
 import propTypes from "prop-types"
 import styles from "./styles.module.css"
 import Title from "../Title"
-import ProfileDescription from "./ProfileDescription"
+import ProfileSection from "./ProfileDescription"
 import LinkButton from "../LinkButton"
 
 export default function Profile(props){
@@ -11,16 +11,20 @@ export default function Profile(props){
             <Title>
                 <span>{props.name}</span> 
             </Title>
-            <ProfileDescription>{props.bio}</ProfileDescription>
-            <ProfileDescription>{props.phone}</ProfileDescription>
-            <ProfileDescription>{props.email}</ProfileDescription>
-            <ProfileDescription className={styles.links}>
-                <div className={styles.links}>
+            <ProfileSection>{props.bio}</ProfileSection>
+            <ProfileSection>{props.phone}</ProfileSection>
+            <ProfileSection>{props.email}</ProfileSection>
+            <ProfileSection 
+                className={styles.links}
+                id="links-section"
+            
+            >
+            
                     <LinkButton href={props.githubUrl} target="_blank" rel="noreferrer">Github</LinkButton>
                     <LinkButton href={props.linkedinUrl} target="_blank" rel="noreferrer">LinkedIn</LinkButton>
                     <LinkButton href={props.twitterUrl} target="_blank" rel="noreferrer">Twitter</LinkButton>
-                </div>
-            </ProfileDescription>
+ 
+            </ProfileSection>
         </div>
 
     )
