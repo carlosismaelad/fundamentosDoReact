@@ -36,7 +36,9 @@ export default function App(){
         />
         <label htmlFor="show">Exibir</label>
       </div>
-      { show? <Counter/> : null }
+      { 
+        show? <Counter/> : null 
+      }
       <hr />      
     </>
   )
